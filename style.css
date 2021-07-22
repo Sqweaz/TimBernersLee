@@ -1,6 +1,7 @@
 body {
     padding-top: 800px;
     margin: 0;
+    text-align:center;
 }
 
 #welcome {
@@ -76,24 +77,23 @@ p {
 }
 
 .menu {
-    list-style: none;
-    font-family: sans-serif;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+   position:fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
     z-index: 10;
-    cursor: pointer;
 }
 
 .links {
-    float: left;
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
     font-size: 20px;
+    display: inline;
 }
 
 .links:hover {
@@ -102,6 +102,7 @@ p {
 
 a{
     text-decoration: none;
+    text-shadow: 2px 2px gainsboro; 
 }
 
 .article:hover {
@@ -110,4 +111,23 @@ a{
 
 html{
     scroll-behavior: smooth;
+}
+
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+#contact{
+    background: lime green;
+}
+
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+
+.contact_1 h3{
+    display:inline;
 }
